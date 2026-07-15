@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="bingo.js"></script>
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <h1>🎱 Bingo</h1>
+
+        <div id="resultado" class="resultado">
+            <p class="letra"></p>
+            <p class="numero"></p>
+            <span>Presiona el botón para sacar una balota</span>
+        </div>
+
+        <button onclick="sacarBalota()">
+            Sacar Balota
+        </button>
+         
+    </div>
+
+     <table id="balotasSacadas">
+        <thead>
+            <tr>
+                <th id="letra">Letra</th>
+                <th id="numero">Número</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+     </table>
+
+</body>
+</html>
